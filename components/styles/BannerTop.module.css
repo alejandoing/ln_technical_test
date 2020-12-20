@@ -1,0 +1,18 @@
+.BannerTop {
+  background-color: #f3f3f3;
+  margin-bottom: 40px;
+  width: 100% !important;
+  margin-left: 0;
+}
+
+.BannerTop__desktop {
+  display: block;
+  margin: auto;
+}
+
+.BannerTop__top {
+  max-width: 1260px;
+  width: 100%;
+  height: 170px;
+  background: #a0dbe9;
+}

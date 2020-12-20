@@ -1,0 +1,23 @@
+.lay_sidebar {
+  max-width: 1340px;
+  padding-right: 2.5em;
+  padding-left: 2.5em;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.sidebar__main {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-right: 2.5em;
+}
+
+@media (min-width: 80em) {
+  .sidebar__main {
+    margin-right: 5em;
+  }
+}

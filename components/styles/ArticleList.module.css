@@ -1,0 +1,7 @@
+.row_gap_deskxl_3 {
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2.5em;
+  grid-row-gap: 2.5em;
+}

@@ -1,0 +1,109 @@
+.mod_caja_nota {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.cont_figure {
+  background-color: #f2f2f2;
+}
+
+.cont_figure .figure .content_pic {
+  width: 100%;
+  background: #f2f2f2;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cont_figure .figure .picture {
+  padding-top: calc((2 / 3)* 100%);
+}
+
+.cont_figure .figure .content_pic .content_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.cont_figure .figure .content_pic > * {
+  z-index: 1;
+}
+
+article a.figure:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  opacity: .5;
+  font-family: 'LNlogos' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: '\e926';
+  font-size: 1vw;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+
+.cont_figure .figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  color: inherit !important;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+article a.figure {
+  position: relative;
+  display: inline-block;
+  background-color: #f2f2f2;
+}
+
+.com_title_acu > a {
+  font-family: "SuecaSlab", "Georgia", "serif";
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.4px;
+  color: #000000 !important;
+  margin-top: 0.4375em;
+}
+
+.com_date {
+  font: 400 0.875rem "Arial", "sans-serif";
+  color: #5a5a5a;
+  margin-top: 0.375em;
+}

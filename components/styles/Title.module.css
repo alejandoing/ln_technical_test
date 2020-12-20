@@ -1,0 +1,15 @@
+.com_titleWithfollow {
+  display: inline-block;
+  margin-right: 0.625em;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+.com_title_section_xl {
+  font-family: "SuecaSlab", "Georgia", "serif";
+  font-size: 1.875rem;
+  font-weight: 200;
+  line-height: 2.3125rem;
+  letter-spacing: -0.4px;
+  border-bottom: 3px solid #000;
+}

@@ -1,0 +1,39 @@
+.hlp-marginRight-35 {
+  margin-right: 35px;
+}
+
+.hlp-marginBottom-15 {
+  margin-bottom: 15px !important;
+}
+
+main {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.w-100-mobile {
+  width: 100% !important;
+  margin-left: 0;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.--scrollUp {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+@font-face {
+  font-family: SuecaSlab;
+  src: url('./fonts/sueca-slab-bold-web.woff.ttf') format('woff'),
+  url('./fonts/sueca-slab-bold-web.woff.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

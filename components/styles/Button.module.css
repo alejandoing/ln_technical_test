@@ -1,0 +1,35 @@
+.Button {
+  font-family: "Arial", "sans-serif";
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.75em 1.5em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -webkit-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+
+.Button:hover {
+  opacity: 0.8;
+  -webkit-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+  cursor: pointer;
+}
+
+.Button__hightlight {
+  background-color: #ffff24;
+  border: 1px solid #cccccc;
+  color: #000;
+}
+
+.Button__secondary {
+  background-color: #ffffff;
+  border: 1px solid #0074c4;
+  color: #0074c4;
+}
+
+.Button__secondary:hover {
+  background-color: #0074c4;
+  border: 1px solid #0074c4;
+  color: #ffffff;
+}
