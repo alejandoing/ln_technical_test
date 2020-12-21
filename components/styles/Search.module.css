@@ -1,0 +1,35 @@
+.Search {
+  position: relative;
+}
+
+.Search__input {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  position: relative;
+  z-index: 100;
+  background: transparent;
+  width: 191px;
+}
+
+.Search__icon {
+  position: ABSOLUTE;
+  left: 160px;
+  z-index: 150;
+  font-size: 26px;
+  top: 6px;
+  font-family: 'LNicons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 2rem;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Search__submit {
+  margin-left: 10px;
+  display: none;
+}

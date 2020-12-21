@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from "./styles/Header.module.css";
 import Button from "./Button";
+import Search from "./Search";
 
 const Header = () => {
   return (
@@ -15,20 +16,7 @@ const Header = () => {
               <span className={styles.Header__hamburger_bar}></span>
             </div>
 
-            <form className='com-search'>
-              <input
-                type='text'
-                className='com-search__input'
-                placeholder='Buscar'
-              />
-              <i className='icon-search'></i>
-
-              <input
-                type='submit'
-                value='Buscar'
-                className='--btn --primary com-search__submit'
-              />
-            </form>
+            <Search />
           </div>
 
           <div className={`col-4 ${styles.Header__middle}`}>

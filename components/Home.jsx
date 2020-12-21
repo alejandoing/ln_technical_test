@@ -5,8 +5,10 @@ import BannerTop from "./BannerTop";
 import Title from "./Title";
 import TagsBanner from "./TagsBanner";
 import ArticleList from "./ArticleList";
+import Footer from "./Footer";
 
 import styles from "../styles/index.module.css";
+
 
 const Home = () => {
   return (
@@ -26,6 +28,7 @@ const Home = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

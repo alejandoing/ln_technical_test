@@ -1,0 +1,185 @@
+.Footer__lay {
+  max-width: 1340px;
+  padding-right: 2.5em;
+  padding-left: 2.5em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Footer__header {
+  padding-bottom: 0.9375em;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 1.25em;
+}
+
+.Footer__header_logo {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.Footer__header_logo img {
+  position: relative;
+  left: 50px;
+}
+
+.Footer__header_redes {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.Footer__header_redes a {
+  margin-right: 2em;
+}
+
+.Footer__header_app {
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.Footer__app_ios {
+  margin-left: 1.875em;
+}
+
+.Footer__sitio {
+  margin-bottom: 1.25em;
+}
+
+.Footer__sitio_links_item_link {
+  font-size: 0.875rem;
+  color: #0074c4;
+  margin-right: 1.3125em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.Footer__sitio_captcha {
+  line-height: 1.125em;
+  display: none;
+}
+
+.Footer__sitio_captcha p {
+  color: #5a5a5a;
+  font-size: 0.875em;
+  line-height: 1.25em;
+  text-align: right;
+  width: 100%;
+}
+
+.Footer__copyright {
+  margin-bottom: 1.25em;
+}
+
+.Footer__copyright_fiscal {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.Footer__copyright_fiscal p {
+  color: #5a5a5a;
+  font-size: 0.875em;
+  line-height: 1.25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: top;
+  text-align: left;
+  margin: -20px 0 20px 0;
+}
+
+.Footer__copyright_fiscal p .img_gda {
+  margin: 0 15px 0 -5px;
+}
+
+.Footer__copyright_fiscal p a {
+  float: right;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.Footer__copyright_fiscal p a img {
+  width: 2.1875em;
+}
+
+.Footer__copyright_reserved {
+  font-size: 0.875rem;
+  line-height: 1.5em;
+  color: #5a5a5a;
+  text-align: center;
+}
+
+@media (min-width: 64em) {
+  .Footer__copyright_fiscal p {
+    text-align: right;
+    width: 100%;
+    margin: -6px 0 0 0;
+    display: block;
+  }
+
+  .Footer__copyright_reserved {
+    text-align: left;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+.Footer__sitio_captcha p a {
+  font-size: 0.875rem;
+  line-height: 1.125em;
+  color: #0074c4;
+  margin-left: 0.9375em;
+}
+
+@media (min-width: 1024px) {
+  .Footer__sitio_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .Footer__sitio_captcha {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
