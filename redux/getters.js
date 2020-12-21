@@ -1,5 +1,4 @@
 import {
-  apiGet,
   mergeArr,
   mapByKey,
   sortByLength,
@@ -7,12 +6,14 @@ import {
   findEqual,
 } from "../utils";
 
+import axios from "axios";
+
 export const getArticles = async () => {
-  const { articles } = await apiGet(
+  const response = await axios.get(
     "https://api-test-ln.herokuapp.com/articles"
   );
 
-  const filtered = articles.filter((x) => x.subtype === "7");
+  const filtered = response.data.articles.filter((x) => x.subtype === "7");
   return filtered;
 };
 
